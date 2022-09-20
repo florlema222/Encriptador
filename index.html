@@ -4,22 +4,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/4c742b4076.js" crossorigin="anonymous"></script>
+
   <title>Encriptador</title>
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-  <div class="box">
+  <div class="container">
     <div>
       <img src="css/images/Vector.png" alt="logo" id="logo">
     </div>
     <div>
       <input type="text" placeholder="Ingrese el texto aqui"></input>
-      <button id="btn-encript" type="submit">Encriptar</button> <button id="btn-desencript">Desencriptar</button>
+      <i class="fa-solid fa-circle-exclamation"></i><p id="condicion">Solo letras minúsculas y sin acento</p>
+      <div class="buttons">
+        <button id="btn-encript" type="submit">Encriptar</button> <button id="btn-desencript">Desencriptar</button>
+      </div>
     </div>
     <div class="rectangle">
       <img src="css/images/Muñeco.png" alt="imagen ilustrativa" id="munieco">
-
+      <div id="smallframe">
+        <p id="ningun-mensaje">Ningún mensaje fue encontrado</p>
+        <p id="ingresa-texto">Ingresa el texto que desees encriptar o desencriptar</p>
+      </div>
     </div>
   </div>
 <script src="JS/script.js"></script>
