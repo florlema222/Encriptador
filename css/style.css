@@ -36,24 +36,24 @@ input {
   width: 680px;
   height: 67px;
   left: 240px;
-  top: 885px;
+  top: 820px;
 }
 
 #btn-encript {
-  height: 67px;
-  width: 328px;
+  height: 80px;
+  width: 340px;
   border-radius: 24px;
   padding: 24px;
   background-color: #0A3871;
   color: white;
-  font-size: 16px;
+  font-size: 27px;
 }
 
-#btn-desencript {
+#btn-desencript, #copiar{
   padding: 24px;
-  width: 328px;
-  height: 67px;
-  font-size: 16px;
+  width: 340px;
+  height: 80px;
+  font-size: 27px;
   background: #D8DFE8;
   border: 1px solid #0A3871;
   border-radius: 24px;
@@ -62,26 +62,14 @@ input {
 .container {
   display: flex;
   justify-content: space-evenly;
-
-
-}
-
-.rectangle {
-  position: relative;
-  height: 944px;
-  width: 400px;
-  top: 40px;
-  border-radius: 32px;
-  background-color: white;
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-  border-radius: 32px;
 }
 
 #munieco {
   position: absolute;
   width: 336px;
   height: 304px;
-  top: 283px;
+  top: 130px;
+  left: 45px;
 }
 
 #logo {
@@ -102,7 +90,7 @@ input {
   width: 229px;
   height: 18px;
   left: 275px;
-  top: 840px;
+  top: 770px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -123,7 +111,7 @@ input {
   width: 229px;
   height: 18px;
   left: 251px;
-  top: 852px;
+  top: 782px;
   line-height: 150%;
   color: #495057;
   opacity: 0.8;
@@ -139,14 +127,11 @@ input {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
-  gap: 16px;
-
   position: absolute;
   width: 336px;
   height: 122px;
-  left: 35px;
-  top: 619px;
+  left: 50px;
+  top: 490px;
 }
 
 #ningun-mensaje {
@@ -157,7 +142,7 @@ input {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 27px;
   line-height: 120%;
   /* or 29px */
 
@@ -183,7 +168,7 @@ input {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
   /* or 24px */
 
@@ -193,4 +178,26 @@ input {
 
   color: #495057;
 
+}
+
+input:focus{
+  outline: none;
+}
+
+#copiar {
+  position: absolute;
+  height: 80px;
+  width: 340px;
+  left: 60px;
+  top: 743px;
+}
+
+.rectangle {
+  position: relative;
+  height: 850px;
+  width: 450px;
+  top: 70px;
+  background-color: white;
+  box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
+  border-radius: 32px;
 }
