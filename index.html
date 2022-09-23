@@ -5,32 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/4c742b4076.js" crossorigin="anonymous"></script>
-
   <title>Encriptador</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
   <div class="container">
-    <div>
-      <img src="css/images/Vector.png" alt="logo" id="logo">
-    </div>
-    <div>
-      <input type="text" placeholder="Ingrese el texto aqui"></input>
-      <i class="fa-solid fa-circle-exclamation"></i><p id="condicion">Solo letras minúsculas y sin acento</p>
-      <div class="buttons">
-        <button id="btn-encript" type="submit">Encriptar</button> <button id="btn-desencript">Desencriptar</button>
+    <div class="row">
+      <div class="col-12 col-lg-2 col-md-12">
+        <img src="css/images/Vector.png" alt="logo" id="logo">
       </div>
-    </div>
-    <div class="rectangle">
-      <img src="css/images/Muñeco.png" alt="imagen ilustrativa" id="munieco">
-      <div id="smallframe">
-        <p id="ningun-mensaje">Ningún mensaje fue encontrado</p>
-        <p id="ingresa-texto">Ingresa el texto que desees encriptar o desencriptar</p>
+      <div class="col-12 col-lg-6 col-md-12">
+        <input type="text" placeholder="Ingrese el texto aqui"></input>
+        <i class="fa-solid fa-circle-exclamation"></i><p id="condicion">Solo letras minúsculas y sin acento</p>
+        <div class="buttons">
+          <button id="btn-encript" type="submit">Encriptar</button> <button id="btn-desencript">Desencriptar</button>
+        </div>
       </div>
-      <button id="copiar">Copiar</button>
+      <div class="col-12 col-lg-4 col-md-12 rectangle">
+        <img src="css/images/Muñeco.png" alt="imagen ilustrativa" id="munieco">
+        <div id="smallframe">
+          <p id="ningun-mensaje">Ningún mensaje fue encontrado</p>
+          <p id="ingresa-texto">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <button id="copiar">Copiar</button>
+      </div>
     </div>
   </div>
 <script src="JS/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstra
+p.bundle.min.js"></script>
+
 </body>
 </html>

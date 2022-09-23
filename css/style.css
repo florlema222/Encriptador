@@ -5,7 +5,6 @@ body {
 
 input {
   color: #0A3871;
-  position: absolute;
   width: 577px;
   height: 48px;
   left: 240px;
@@ -20,9 +19,9 @@ input {
   background: #F3F5FC;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
   color: #0A3871;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
 .buttons {
@@ -31,11 +30,9 @@ input {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
-
   position: absolute;
   width: 680px;
   height: 67px;
-  left: 240px;
   top: 820px;
 }
 
@@ -60,10 +57,11 @@ input {
 }
 
 .container {
-  display: flex;
-  justify-content: space-evenly;
-}
+  display: flex ;
+  justify-content: space-between;
 
+}
+/*
 #munieco {
   position: absolute;
   width: 336px;
@@ -99,7 +97,6 @@ input {
   color: #495057;
   opacity: 0.8;
 
-  /* Inside auto layout */
 
   flex: none;
   order: 1;
@@ -108,7 +105,6 @@ input {
 
 .fa-solid {
   position: absolute;
-  width: 229px;
   height: 18px;
   left: 251px;
   top: 782px;
@@ -116,7 +112,6 @@ input {
   color: #495057;
   opacity: 0.8;
 
-  /* Inside auto layout */
 
   flex: none;
   order: 1;
@@ -144,16 +139,13 @@ input {
   font-weight: 700;
   font-size: 27px;
   line-height: 120%;
-  /* or 29px */
 
   text-align: center;
 
-  /* Gray/gray-500 */
 
   color: #343A40;
 
 
-  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -170,11 +162,9 @@ input {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
-  /* or 24px */
 
   text-align: center;
 
-  /* Gray/gray-400 */
 
   color: #495057;
 
@@ -195,7 +185,6 @@ input:focus{
 .rectangle {
   position: relative;
   height: 850px;
-  width: 450px;
   top: 70px;
   background-color: white;
   box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
